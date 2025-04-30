@@ -1,0 +1,13 @@
+srgb = false
+tabs = true
+vsync = true
+
+[font]
+normal = ["CodeNewRoman Nerd Font"]
+size = 12
+
+[box-drawing]
+mode = "native"
+
+[box-drawing.sizes]
+default = [1, 2]  # Thin and thick values respectively, for all sizes

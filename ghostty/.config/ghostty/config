@@ -1,0 +1,31 @@
+# Run `ghostty +show-config --default --docs` to view a list of
+# all available config options and their default values.
+#
+# Additionally, each config option is also explained in detail
+# on Ghostty's website, at https://ghostty.org/docs/config.
+
+font-family = CodeNewRoman Nerd Font
+
+theme = catppuccin-mocha
+title = Ghostty
+
+font-size = 12
+font-synthetic-style = false
+font-feature = -calt, -liga, -dlig
+
+cursor-color = 
+cursor-text =
+
+window-padding-balance = true
+window-padding-color = extend
+adjust-box-thickness = -1
+
+background-opacity = 0.95
+background-blur = 5
+
+selection-invert-fg-bg = true
+cursor-invert-fg-bg = false
+confirm-close-surface = false
+resize-overlay = never
+
+# TODO: Keybind for a Ghostty quick terminal

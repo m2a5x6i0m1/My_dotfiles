@@ -6,7 +6,7 @@ return {
 	end,
 	opts = {
 		preset = "helix",
-		delay = 500,
+		delay = 0,
 		spec = {
 			{ "<leader>f", group = "[F]ind" },
 			{ "<leader>s", group = "[S]plit" },

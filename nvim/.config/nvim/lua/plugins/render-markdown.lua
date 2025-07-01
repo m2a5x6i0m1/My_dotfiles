@@ -24,7 +24,7 @@ return {
 				border = true,
 				sign = false,
 				width = "block",
-				min_width = 70,
+				min_width = 145,
 			},
 			code = {
 				sign = false,
@@ -39,8 +39,8 @@ return {
 				unchecked = { icon = " 󰄱 " },
 				checked = { icon = " 󰱒 " },
 			},
-			bullet = { icons = { "◇", "◆", "○", "●" } },
-			dash = { width = 70 },
+			bullet = { icons = { "◆", "◇", "●", "○" } },
+			dash = { width = 145 },
 		})
 	end,
 }

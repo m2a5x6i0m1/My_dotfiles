@@ -5,16 +5,19 @@ return {
 	settings = {
 		nixd = {
 			nixpkgs = {
-				expr = "import <nixpkgs> { }",
+				expr = 'import (builtins.getFlake "/home/max/myNixOS").inputs.nixpkgs { }',
 			},
-			-- options = {
-			-- 	nixos = {
-			-- 		expr = '(builtins.getFlake ("git+file://" + toString ./.)).nixosConfigurations.nixos.options',
-			-- 	},
-			-- 	home_manager = {
-			-- 		expr = '(builtins.getFlake ("git+file://" + toString ./.)).homeConfigurations."ruixi@k-on".options',
-			-- 	},
-			-- },
+			options = {
+				nixos = {
+					expr = '(builtins.getFlake "/home/max/myNixOS").nixosConfigurations.nixos.options',
+				},
+				home_manager = {
+					expr = '(builtins.getFlake "/home/max/myNixOS").nixosConfigurations.nixos.options.home-manager.users.type.getSubOptions []',
+				},
+			},
+			formatting = {
+				command = { "alejandra" },
+			},
 		},
 	},
 }

@@ -14,7 +14,7 @@ return {
 			},
 
 			format_after_save = {
-				lsp_fallback = false,
+				lsp_fallback = true,
 				async = true,
 			},
 		})

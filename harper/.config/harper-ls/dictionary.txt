@@ -3,6 +3,7 @@ Alexithymia
 Autologin
 Codewars
 Ctrl
+Cuphead
 DHCP
 Dataview
 Debloated
@@ -23,7 +24,6 @@ LazyVim
 Ly
 MOC
 Mprocs
-MyNixOS
 NVF
 Ncspot
 Neovide
@@ -35,9 +35,11 @@ Terraria
 Tmux
 Tui
 UWSM
+Ventoy
 Vimium
 Vpn
 Zellij
+alejandra
 alice
 blinkoff
 blinkon
@@ -50,6 +52,7 @@ cmd
 colorschemes
 coreutils
 etc
+expr
 eza
 fd
 frontmatter
@@ -64,6 +67,8 @@ kek
 libreoffice
 lol
 lsp
+myNixOS
+nixd
 nixos
 nixpkgs
 noogle
